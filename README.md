@@ -1,7 +1,7 @@
 # tuscany
 
 
-Gemini resim prompları
+Gemini resim promptları
 can you create a beautiful sunset in tuscany upview with great cene in vineyard
 can you create a beautiful sunset in tuscany upview with great cene in vineyard
 i want you to create an image of tuscany at sunset in a very beautfiul vineyard there is a table and on the table there is some grapes and a glass of wine
