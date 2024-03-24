@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuscany: Contact Us</title>
+  <link rel="stylesheet" href="exStyle.css">
+</head>
+<body>
+  <header>
+    <h1>Tuscany: La Dolce Vita</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="plan.html">Plan Your Trip</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Get in Touch with Tuscany Tourism</h2>
+    <p>We'd love to hear from you! Do you have questions about planning your trip to Tuscany?  Perhaps you'd like recommendations or suggestions based on your interests?  Fill out the form below and a member of our team will be happy to assist you.</p>
+    <form action="form_handler.php" method="post"> <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <br>
+      <button type="submit">Send Inquiry</button>
+    </form>
+    <p>Alternatively, you can reach us by phone at +39 055  XXXX XXXX  (replace with actual phone number) or by email at <a href="mailto:info@tuscanytourism.it">info@tuscanytourism.it</a>.</p>
+  </main>
+  <footer>
+    <p>&copy; 2024 Tuscany Tourism</p>
+  </footer>
+</body>
+</html>

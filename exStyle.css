@@ -1,0 +1,129 @@
+body {
+    font-family: Georgia, serif; /* More concise way to define serif fonts */
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black with hex code */
+    color: #fff; /* White with hex code */
+  }
+  
+  header {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    font-weight: lighter;
+    top: 0; /* Stick to the top of the viewport */
+  }
+  
+  nav {
+    display: inline-block;
+    justify-content: space-between; /* Even spacing between elements */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px; /* Consistent margin using shorthand */
+    display: inline-block;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent (header) */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  nav a:hover {
+    background-color: #222; /* Darken background on hover */
+    color: #ddd; /* Lighten text color on hover */
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    object-fit: cover; /* Or object-fit: contain; */
+  }
+
+  
+  
+  .content {
+    text-align: justify;
+    margin: 0 auto; /* Center content horizontally */
+    width: 70%; /* Adjust width as needed for Explore/Plan/Contact pages */
+    padding: 15%; /* Adjust padding as needed for Explore/Plan/Contact pages */
+  }
+  
+  .content img {
+    width: 100%; /* Images take full width within content */
+  }
+  
+  footer {
+    background-color: #c6422e; /* Terracotta with hex code */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  /* In your existing style.css file (assuming styles are already linked) */
+
+form {
+    display: flex; /* Arrange form elements in a row */
+    flex-direction: column; /* Stack elements vertically */
+    width: 50%;
+    margin: 0 auto; /* Center form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a thin border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  form label {
+    margin-bottom: 5px;
+    display: block; /* Make labels on separate lines */
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to indicate clickability */
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0069d9; /* Darker blue on hover */
+  }
+  main a{
+    text-decoration: none;
+    color: #0069d9;
+    
+  }  
